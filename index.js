@@ -4,26 +4,20 @@ let countNumber = 0
 
 const mainCount = (n) => {
 
-
     for (let i = 2; i < n; i++) { // перебираем все числа до n
-        let iterCount = (i-1)
+        let iterCount = (i-1) //счетчик итераций
         for (let j = 2; j <= i; j++) { // проверить, делится ли число..
-
-            if (i % j == 0) {
-                console.log(i, j + 'делится без остатка')
-
-                    if(iterCount === 1) {
+            if (i % j == 0) { //если оно делится само на себя то мы не убавляем счетчик
+                    if(iterCount === 1) { //деление без остатка должно быть одно
                         countNumber++
                     }
             }
             else {
-                iterCount--
-                console.log(i, j + 'ЕСТЬ ОСТАТОК')
+                iterCount-- //следим за убыванием счетчика итарций
             }
         }
 
     }
     console.log('колличество простых чисел: ' + countNumber)
 }
-
 mainCount(n);
