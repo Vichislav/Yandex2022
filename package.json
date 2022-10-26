@@ -1,0 +1,22 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "search.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vichislav/Yandex2022.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "tanskiy_vv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vichislav/Yandex2022/issues"
+  },
+  "homepage": "https://github.com/Vichislav/Yandex2022#readme"
+}
