@@ -13,11 +13,11 @@ const mainCount = (n) => {
                     }
             }
             else {
-                iterCount-- //следим за убыванием счетчика итарций
+                iterCount-- //следим за убыванием счетчика итераций
             }
         }
 
     }
-    console.log('колличество простых чисел: ' + countNumber)
+    console.log('количество простых чисел: ' + countNumber)
 }
 mainCount(n);
